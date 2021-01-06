@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>eu.europeana.metis</groupId>
   <artifactId>metis-framework</artifactId>
-  <version>3-SNAPSHOT</version>
+  <version>3.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <modules>
+    <module>metis-schema</module>
     <module>metis-core</module>
     <module>metis-indexing</module>
     <module>metis-dereference</module>
@@ -21,7 +20,6 @@
     <module>metis-media-service</module>
     <module>metis-authentication</module>
     <module>metis-transformation</module>
-    <module>metis-schema</module>
   </modules>
 
   <!-- Github connection -->
