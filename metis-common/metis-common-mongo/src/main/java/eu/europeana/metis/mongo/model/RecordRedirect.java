@@ -15,7 +15,7 @@ import org.bson.types.ObjectId;
  * @author Simon Tzanakis (Simon.Tzanakis@europeana.eu)
  * @since 2020-01-13
  */
-@Entity
+@Entity(useDiscriminator = false)
 public class RecordRedirect implements HasMongoObjectId {
 
   @Id
